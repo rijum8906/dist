@@ -1,0 +1,1 @@
+import{j as o,N as s}from"./index-D8XRboE_.js";const r=({children:a})=>{const t=localStorage.getItem("token");var e=!1;return t&&(e=JSON.parse(atob(t.split(".")[1])).isAdmin),e?a:o.jsx(s,{to:"/"})};export{r as default};
